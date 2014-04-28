@@ -1,0 +1,46 @@
+Jan 25, 2014 12:43:01 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: d:\home\site\wwwroot\bin\java\bin;D:\Windows\Sun\Java\bin;D:\Windows\system32;D:\Windows;D:\Program Files (x86)\nodejs\0.10.21;D:\Windows\system32;D:\Windows;D:\Windows\System32\Wbem;D:\Windows\System32\WindowsPowerShell\v1.0\;D:\Users\Administrator\AppData\Roaming\npm;D:\Program Files (x86)\nodejs\;d:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;D:\Program Files (x86)\Mercurial\;D:\Program Files\MySQL\MySQL Server 5.1\bin;D:\Program Files (x86)\PHP\v5.4;;.
+Jan 25, 2014 12:43:01 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-127.0.0.1-29567"]
+Jan 25, 2014 12:43:01 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1357 ms
+Jan 25, 2014 12:43:02 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 25, 2014 12:43:02 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.47
+Jan 25, 2014 12:43:02 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive D:\home\site\wwwroot\bin\tomcat\webapps\helloworldspring.war
+Jan 25, 2014 12:43:12 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,016] milliseconds.
+Jan 25, 2014 12:43:12 AM org.springframework.web.servlet.DispatcherServlet initServletBean
+INFO: FrameworkServlet 'spring': initialization started
+Jan 25, 2014 12:43:12 AM org.springframework.web.context.support.XmlWebApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Sat Jan 25 00:43:12 GMT 2014]; root of context hierarchy
+Jan 25, 2014 12:43:12 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+Jan 25, 2014 12:43:13 AM org.springframework.context.annotation.ClassPathBeanDefinitionScanner registerDefaultFilters
+INFO: JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+Jan 25, 2014 12:43:13 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ba1868: defining beans [helloWorldController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,viewResolver]; root of factory hierarchy
+Jan 25, 2014 12:43:14 AM org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping registerHandler
+INFO: Mapped URL path [/hello] onto handler [mypackage.HelloWorldController@c9326f]
+Jan 25, 2014 12:43:14 AM org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping registerHandler
+INFO: Mapped URL path [/hello.*] onto handler [mypackage.HelloWorldController@c9326f]
+Jan 25, 2014 12:43:14 AM org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping registerHandler
+INFO: Mapped URL path [/hello/] onto handler [mypackage.HelloWorldController@c9326f]
+Jan 25, 2014 12:43:14 AM org.springframework.web.servlet.DispatcherServlet initServletBean
+INFO: FrameworkServlet 'spring': initialization completed in 1969 ms
+Jan 25, 2014 12:43:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\home\site\wwwroot\bin\tomcat\webapps\docs
+Jan 25, 2014 12:43:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\home\site\wwwroot\bin\tomcat\webapps\examples
+Jan 25, 2014 12:43:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\home\site\wwwroot\bin\tomcat\webapps\host-manager
+Jan 25, 2014 12:43:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\home\site\wwwroot\bin\tomcat\webapps\manager
+Jan 25, 2014 12:43:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\home\site\wwwroot\bin\tomcat\webapps\ROOT
+Jan 25, 2014 12:43:16 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-127.0.0.1-29567"]
+Jan 25, 2014 12:43:16 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 14679 ms

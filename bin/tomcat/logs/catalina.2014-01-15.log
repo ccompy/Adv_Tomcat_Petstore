@@ -1,0 +1,26 @@
+Jan 15, 2014 11:30:49 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Program Files (x86)\Java\jdk1.7.0_45\bin;D:\Windows\Sun\Java\bin;D:\Windows\system32;D:\Windows;D:\Program Files (x86)\nodejs\0.10.5;D:\Windows\system32;D:\Windows;D:\Windows\System32\Wbem;D:\Windows\System32\WindowsPowerShell\v1.0\;D:\Users\Administrator\AppData\Roaming\npm;D:\Program Files (x86)\nodejs\;d:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;D:\Program Files (x86)\Mercurial\;D:\Program Files\MySQL\MySQL Server 5.1\bin;D:\Program Files (x86)\PHP\v5.4;;.
+Jan 15, 2014 11:30:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-127.0.0.1-32010"]
+Jan 15, 2014 11:30:49 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1122 ms
+Jan 15, 2014 11:30:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 15, 2014 11:30:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.47
+Jan 15, 2014 11:30:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\home\site\wwwroot\bin\tomcat\webapps\docs
+Jan 15, 2014 11:30:56 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [5,031] milliseconds.
+Jan 15, 2014 11:30:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\home\site\wwwroot\bin\tomcat\webapps\examples
+Jan 15, 2014 11:30:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\home\site\wwwroot\bin\tomcat\webapps\host-manager
+Jan 15, 2014 11:30:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\home\site\wwwroot\bin\tomcat\webapps\manager
+Jan 15, 2014 11:30:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory D:\home\site\wwwroot\bin\tomcat\webapps\ROOT
+Jan 15, 2014 11:30:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-127.0.0.1-32010"]
+Jan 15, 2014 11:30:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8539 ms

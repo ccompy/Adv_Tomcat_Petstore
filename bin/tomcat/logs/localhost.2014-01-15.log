@@ -1,0 +1,12 @@
+Jan 15, 2014 11:30:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jan 15, 2014 11:30:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jan 15, 2014 11:30:57 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1b17745')
+Jan 15, 2014 11:31:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@1480d9a')
+Jan 15, 2014 11:31:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@9a14ca')
+Jan 15, 2014 11:31:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('D7678EDC105018C88AFAFD4250578A45')
